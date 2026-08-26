@@ -91,7 +91,9 @@ This project helped me practice and combine:
 ```text
 RG-Tool-Box/
 │
+├── License
 ├── main.py
+├── RgToolbox.exe
 └── README.md
 ```
 
