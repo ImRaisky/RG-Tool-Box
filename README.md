@@ -1,47 +1,58 @@
 # 🧰 RG : Tool Box
 
-A small multi-tool desktop application built with **Python and Tkinter** as part of my journey learning GUI development.
+A multi-tool desktop application built with **Python and Tkinter**.
 
-The project started as a way to practice Tkinter widgets and gradually evolved into a single application containing multiple useful tools.
+RG : Tool Box combines several small utilities into one application while serving as a hands-on project for practicing Python GUI development.
 
 > 🚧 **This is a learning project and is still being developed.**
 
 ## ✨ Features
 
+### 🏠 Home Page
+
+* Central home page for accessing all tools
+* Simple multi-page navigation
+* Menu bar for quick navigation
+
 ### 📝 Text Editor
 
 * Write and edit text
 * Save text files
-* Import existing `.txt` files
-* Uses Tkinter's `Text` widget and `filedialog`
+* Import `.txt` files
+* Basic file handling using Tkinter's `filedialog`
 
 ### 📋 To-Do List
 
-* Add tasks
+* Add tasks dynamically
 * Remove tasks
-* Create dynamic Checkbuttons
-* Store and manage created task widgets using a Python list
+* Create Checkbuttons dynamically
+* Manage created tasks using Python lists
 
-### 🎲 Random Number Tool
+### 🎲 Random Tool
 
 * Generate random numbers
 * Set a custom minimum value
 * Set a custom maximum value
 * Basic invalid-input handling
 
-### 🎨 Color Tool
+### 🎨 Color Chooser
 
-* Open Tkinter's color chooser
-* Display the selected RGB value
-* Display the selected HEX value
+* Choose a color using Tkinter's color chooser
+* Display RGB values
+* Display HEX values
 * Preview the selected color
 
-### 🏠 Multi-Page Interface
+## 🎨 Interface
 
-* Home page
-* Separate pages for each tool
-* Navigation between pages using Tkinter Frames
-* Menu bar with navigation and exit options
+The application uses a centralized color palette to keep the interface consistent across its different pages.
+
+```python
+BG = "#0F172A"
+FRAME = "#1E293B"
+PRIMARY = "#3B82F6"
+ACCENT = "#06B6D4"
+TEXT = "#F1F5F9"
+```
 
 ## 🛠️ Technologies
 
@@ -52,6 +63,28 @@ The project started as a way to practice Tkinter widgets and gradually evolved i
 * `colorchooser`
 
 No external GUI framework is required.
+
+## 🧠 What I Practiced
+
+This project helped me practice and combine:
+
+* Tkinter widgets
+* `Frame` and `LabelFrame`
+* `pack()` and `grid()`
+* Buttons and callbacks
+* `Entry` and `Text`
+* Checkbuttons
+* Menubars
+* File dialogs
+* Reading and writing files
+* Lists and loops
+* Functions
+* Conditions
+* Exception handling
+* Dynamic widget creation
+* Multi-page GUI navigation
+* Basic UI organization
+* Centralized colors and styling
 
 ## 📂 Project Structure
 
@@ -64,51 +97,31 @@ RG-Tool-Box/
 
 > The project structure may change as development continues.
 
-## 🎯 Purpose
-
-The main purpose of this project is **learning by building**.
-
-While developing RG : Tool Box, I practiced:
-
-* Tkinter widgets
-* Buttons and callbacks
-* Frames
-* `pack()` and `grid()`
-* Menubars
-* Text widgets
-* File dialogs
-* Reading and writing files
-* Lists and dynamic widgets
-* Functions
-* Exception handling
-* Basic GUI navigation
-* Debugging
-* Combining multiple features into one application
-
 ## 🚀 Future Plans
 
-Possible improvements and features:
+Possible improvements:
 
 * 🌙 Dark mode
-* 🎨 Improved interface design
 * 📝 More Text Editor features
-* 💾 Better file handling
+* 💾 Improved file handling
 * 📋 Better task management
-* 🎲 More random tools
-* 🧰 Additional utilities
-* 🧹 Code refactoring and better project structure
+* 🎲 More random utilities
+* 🎨 Further UI improvements
+* 🧰 Additional tools
+* 🧹 Code refactoring
+* 📦 Better project structure
 
 ## 📸 Screenshots
 
 Screenshots will be added as the interface develops.
 
-## 📚 About the Project
+## 🎯 Project Goal
 
-This project is part of my Python learning journey.
+RG : Tool Box is primarily a **learning-by-building project**.
 
-I started with small Tkinter examples and gradually combined the concepts I learned into this application instead of keeping every experiment as a separate project.
+Instead of keeping each Tkinter experiment as a separate small program, I combined the concepts I learned into one application and gradually expanded it with new features.
 
-The goal is not only to make the application work, but also to improve the code and the interface as my programming skills grow.
+The project will continue to evolve as I improve my Python and GUI development skills.
 
 ---
 
